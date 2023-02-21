@@ -8,6 +8,7 @@
     margin: 0 auto;
     min-width: 1000px;
     max-width: 1400px;
+    font-family: 'Poppins',sans-serif;
   }
   
   /* Layout */
@@ -43,3 +44,75 @@
   }
   
   /* WRITE YOUR CODE BELOW HERE */
+  body{
+    font-size: 10px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+  }
+
+  header h1{
+    font-size: 32px;
+    text-align: center;
+    letter-spacing: 2px;
+  }
+
+  h2{
+    font-size: 24px;
+    letter-spacing: 2px;
+    line-height: 30px;
+  }
+
+  section p:nth-of-type(odd){
+    text-indent: 20px;
+  }
+
+  a:link{
+    color: #a66;
+  }
+
+  a:visited{
+    color:slateblue;
+  }
+
+  a:hover{
+    color: salmon;
+  }
+
+  a:active{
+    color: burlywood;
+  }
+
+  a:focus{
+    outline: 0;
+  }
+
+  a:hover, a:focus{
+    text-decoration: none;
+  }
+
+
+  a[target="_blank"]:after {
+    font-family: 'FontAwesome';
+    content: " \f08e";
+}
+
+ ul{
+    list-style-type:square;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav ul li{
+    border: 1px solid #a66;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    font-size: 16px;
+}
+
+nav ul li a{
+    text-decoration: none;
+}
